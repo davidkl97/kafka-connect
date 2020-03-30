@@ -1,0 +1,17 @@
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/Validators/BatchSizeValidator.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/package-info.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/Models/Label.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/Models/Issue.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/GitHubAPIHttpClient.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/Models/Assignee.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/GitHubSchemas.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/Models/User.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/GitHubSourceConnector.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/VersionUtil.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/Validators/TimestampValidator.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/Models/PullRequest.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/GitHubSourceConnectorConfig.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/Utils/DateUtils.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/GitHubSourceTask.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/Models/Creator.java
+/home/david/IdeaProjects/kafka-connect/src/main/java/com/github/davidkl97/wapiti/kafka/connect/Models/Milestone.java

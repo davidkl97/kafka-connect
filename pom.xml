@@ -1,0 +1,115 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.com.davidkl97.wapiti.kafka.connect</groupId>
+    <artifactId>kafka-connect</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>kafka-connect</name>
+    <description>A Kafka Connect Connector for kafka-connect</description>
+
+    <parent>
+        <groupId>com.github.jcustenborder.kafka.connect</groupId>
+        <artifactId>kafka-connect-parent</artifactId>
+        <version>2.4.0</version>
+    </parent>
+
+    <scm>
+        <connection></connection>
+        <developerConnection></developerConnection>
+        <url></url>
+    </scm>
+    <issueManagement>
+        <system></system>
+        <url></url>
+    </issueManagement>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.mashape.unirest/unirest-java -->
+        <dependency>
+            <groupId>com.mashape.unirest</groupId>
+            <artifactId>unirest-java</artifactId>
+            <version>1.4.9</version>
+        </dependency>
+
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.5.3</version>
+                <configuration>
+                    <descriptors>
+                        <descriptor>src/main/assembly/package.xml</descriptor>
+                    </descriptors>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                            <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <!--
+            Uncomment this second to generate a package to deploy to the Confluent Hub.
+                        <plugin>
+                            <groupId>io.confluent</groupId>
+                            <artifactId>kafka-connect-maven-plugin</artifactId>
+                            <configuration>
+                                <confluentControlCenterIntegration>true</confluentControlCenterIntegration>
+                                <documentationUrl>https://jcustenborder.github.io/kafka-connect-documentation/</documentationUrl>
+                                <componentTypes>
+                                    <componentType>source</componentType>
+                                    <componentType>sink</componentType>
+                                    <componentType>transform</componentType>
+                                    <componentType>converter</componentType>
+                                </componentTypes>
+                                <tags>
+                                    <tag>kafka-connect</tag>
+                                </tags>
+                                <title>Kafka Connect kafka-connect</title>
+                                <supportUrl>${pom.issueManagement.url}</supportUrl>
+                                <supportSummary>Support provided through community involvement.</supportSummary>
+                                <excludes>
+                                    <exclude>org.reflections:reflections</exclude>
+                                </excludes>
+                            </configuration>
+                        </plugin>
+            -->
+        </plugins>
+    </build>
+
+
+</project>

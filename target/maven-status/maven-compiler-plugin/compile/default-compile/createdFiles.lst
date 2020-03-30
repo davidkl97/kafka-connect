@@ -1,0 +1,17 @@
+com/github/davidkl97/wapiti/kafka/connect/Models/Creator.class
+com/github/davidkl97/wapiti/kafka/connect/VersionUtil.class
+com/github/davidkl97/wapiti/kafka/connect/Utils/DateUtils.class
+com/github/davidkl97/wapiti/kafka/connect/GitHubSchemas.class
+com/github/davidkl97/wapiti/kafka/connect/package-info.class
+com/github/davidkl97/wapiti/kafka/connect/GitHubAPIHttpClient.class
+com/github/davidkl97/wapiti/kafka/connect/Models/Milestone.class
+com/github/davidkl97/wapiti/kafka/connect/GitHubSourceConnector.class
+com/github/davidkl97/wapiti/kafka/connect/Models/Issue.class
+com/github/davidkl97/wapiti/kafka/connect/GitHubSourceTask.class
+com/github/davidkl97/wapiti/kafka/connect/Models/Label.class
+com/github/davidkl97/wapiti/kafka/connect/Models/User.class
+com/github/davidkl97/wapiti/kafka/connect/Validators/TimestampValidator.class
+com/github/davidkl97/wapiti/kafka/connect/Validators/BatchSizeValidator.class
+com/github/davidkl97/wapiti/kafka/connect/GitHubSourceConnectorConfig.class
+com/github/davidkl97/wapiti/kafka/connect/Models/Assignee.class
+com/github/davidkl97/wapiti/kafka/connect/Models/PullRequest.class

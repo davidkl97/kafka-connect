@@ -1,0 +1,4 @@
+com.github.davidkl97.wapiti.kafka.connect
+com.github.davidkl97.wapiti.kafka.connect.Models
+com.github.davidkl97.wapiti.kafka.connect.Utils
+com.github.davidkl97.wapiti.kafka.connect.Validators
